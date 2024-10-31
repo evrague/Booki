@@ -126,19 +126,23 @@ nav {
     padding-top : 20px;
     padding-bottom : 50px;
     display: flex;
-    gap: 80%;
+    gap: 75%;
 }
 
 .liens-nav {
     display: flex;
     gap: 20%;
 }
-
-.liens-nav a{
-    border-top: 2px solid lightblue;
-    padding-top: 6px;
+.liens-nav a {
+    padding-top: 20px;
 }
 
+.liens-nav a:hover {
+    border-top: 2px solid #0065FC;
+}
+.booki {
+    padding:20px;
+}
 .chercher{
     display:flex;
     align-items: center;
@@ -149,13 +153,29 @@ nav {
     box-sizing: border-box;
 
 }
-
+.filtres{
+    display:flex;
+    align-items: center;
+    gap :1%;
+    margin-bottom: 30px;
+}
+.filtres button{
+    padding: 15px;
+    border-radius: 36%;
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: 0px 0px transparent;
+    border: 2px solid #F2F2F2;
+}
+.filtres button:hover{
+    background-color: #DEEBFF;
+}
 
 #logo-position, #input-position, #chercher {
     padding: 10px;
 } 
 #logo-position {
-    background-color: rgba(128, 128, 128, 0.27);
+    background-color: #F2F2F2;
 }
 
 #chercher {
@@ -169,13 +189,21 @@ nav {
 }
 
 #input-position {
-    border-color: rgba(128, 128, 128, 0.27);
+    border-color: transparent;
 }
 
 #input-position::placeholder {
     color:black;
     font-weight: bold;
     text-align: center;
+}
+
+.titreh1 {
+    font-size: 20px;
+}
+
+.fa-solid{
+    margin-right: 10px;
 }
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
