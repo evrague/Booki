@@ -214,6 +214,9 @@ nav {
     border: 2px solid #F2F2F2;
     width: 150px;
 }
+#input-position{
+    border: 2px solid #F2F2F2;
+}
 .filtres button:hover{
     background-color: #DEEBFF;
 }
@@ -250,10 +253,10 @@ height: 8px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-#input-position {
-    border-color: transparent;
+#chercher-mobile{
+    display: none;
 }
+
 
 #input-position::placeholder {
     color:black;
@@ -314,13 +317,19 @@ height: 8px;
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px){
+    .liens-nav {
+        display: flex;
+        gap: 0%;
+    }
+    
+    
+    
     nav{
         display: block;
         text-align: center;
 
     }
-    .liens-nav  {
-        display:flex;
+    .liens-nav a  {
         justify-content: center;
         border-bottom: 2px solid #F2F2F2;
         padding-bottom: 15px;  
@@ -331,11 +340,43 @@ height: 8px;
     }
     
     #heber{
+        border-bottom: 2px solid #0065FC;
         color:#0065FC;
+        
 
     }
     #heber, #acti{
         width: 230px;
        
     }
+
+    #chercher{
+        display: none;
+    }
+    #chercher-mobile{
+        display: block;
+        background-color: rgb(43, 113, 218);
+        border-color: transparent;
+        padding: 8px;
+        color:white;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    #romantique-mobile{
+        background-color: #DEEBFF !important;
+    }
+.filtres{
+    display: block;
+}
+.boutons-mobile{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+#input-position{
+    width: 220px;
+}
+.info-logements{
+    margin-top: -20px;
+}
 }
