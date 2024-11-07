@@ -383,6 +383,9 @@ gap: 600px;
     #romantique-mobile{
         background-color: #DEEBFF !important;
     }
+    #pepites{
+        background-color: transparent;
+    }
 .filtres{
     display: block;
 }
@@ -443,5 +446,10 @@ border-radius: 0px !important; }
 .activite img{
     height: 170px;
 
+}
+.pied-page{
+    display: block;
+    background-color: #F2F2F2;
+    padding: 20px;
 }
 }
