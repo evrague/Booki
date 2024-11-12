@@ -8,7 +8,10 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
-
+.boutons-mobile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .fa-solid {
     color: var(--main-color);
 }
