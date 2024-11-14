@@ -56,9 +56,7 @@ a {
 .card-title {
     font-size: 16px;
 }
-#pepites{
-    background-color: #DEEBFF;
-}
+
 .euro {
     font-weight: 700;
 }
@@ -82,7 +80,7 @@ a {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+.hebergements{
     width: 65%;
 }
 .hebergements h2{
@@ -410,7 +408,6 @@ footer{
     }
     .liens-nav a  {
         justify-content: center;
-        border-bottom: 2px solid #F2F2F2;
         padding-bottom: 15px;  
     }
 
@@ -442,9 +439,6 @@ footer{
         border-bottom-right-radius: 20px;
     }
 
-    #romantique-mobile{
-        background-color: #DEEBFF !important;
-    }
 
     .filtres{
         display: block;
