@@ -213,10 +213,10 @@ a {
 
 
 nav {
-    padding-top : 20px;
     padding-bottom : 50px;
     display: flex;
     gap: 75%;
+    margin-top: -7px;
 }
 
 .liens-nav {
@@ -232,6 +232,7 @@ nav {
 }
 .booki {
     padding:6px;
+    padding-top: 20px;
 }
 .chercher{
     display:flex;
