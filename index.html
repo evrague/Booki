@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
 <body>
     <div class="main-container">
         
@@ -63,7 +64,7 @@
                     <div class="cartes-hebergements">
 
                         <a href="#">
-                            <div class="carte">
+                            <article class="carte">
                                 <img src="images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant deux lits">
                                 <div class="card-content">
                                     <h3 class="card-title">Hotel du port</h3>
@@ -74,11 +75,11 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star neutral-star"></i>
                                 </div>  
-                            </div>
+                            </article>
                         </a>
 
                         <a href="#">
-                            <div class="carte">
+                            <article class="carte">
                                 <img src="images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant deux lits et une fenêtre">
                                 <h3 class="card-title">Hotel chez Amina</h3>
                                 <p class="card-subtitle">Nuit à partir de 96€</p>
@@ -87,11 +88,11 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star neutral-star"></i>
-                            </div>
+                            </article>
                         </a>
 
                         <a href="#">
-                            <div class="carte">
+                            <article class="carte">
                                 <img src="images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <h3 class="card-title">Hotel des mouettes</h3>
                                 <p class="card-subtitle">Nuit à partir de 76€</p>
@@ -100,11 +101,11 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star neutral-star"></i>
-                            </div>
+                            </article>
                         </a>
 
                         <a href="#">
-                            <div class="carte">
+                            <article class="carte">
                                 <img src="images/hebergements/annie-spratt.jpg" alt="chambre d'hotel montrant un lit">
             
                                 <div class="card-content">
@@ -121,11 +122,11 @@
                                     </div>
                                 </div>
 
-                            </div>
+                            </article>
                         </a>
 
                         <a href="#">
-                            <div class="carte">
+                            <article class="carte">
                                 <img src="images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant deux lits superposés">
                                 <div class="card-content">
                                     <div class="card-txt">    
@@ -140,11 +141,11 @@
                                         <i class="fa-solid fa-star neutral-star"></i>
                                     </div>
                                 </div>
-                            </div>
+                            </article>
                         </a>
 
                         <a href="#">
-                            <div class="carte">
+                            <article class="carte">
                                 
                                 <img src="images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant quatre lits">
                                 
@@ -163,7 +164,7 @@
                                     </div>
                                 </div>
                                
-                            </div>
+                            </article>
                         </a>
 
                     </div>
@@ -242,37 +243,46 @@
 
             </div>
 
-            <div class="activite-a-marseille" id="section-activite">
+            <section class="activite-a-marseille" id="section-activite">
 
                 <h2 id="titre-activite">Activités à Marseilles</h2>
                 <div class="cartes-activites">
-                    <a href="#" class="activite">
-                        <div>
-                            <img src="images/activites/reno-laithienne.jpg" alt="Image du vieux port">
-                            <h3 class="card-title">Vieux-port</h3>
-                        </div>
-                    </a>
-                    <a href="#" class="activite">
-                        <div>
-                            <img src="images/activites/paul-hermann.jpg" alt="Vestige archéologique">
-                                <h3 class="card-title">Fort de Pomegues</h3>
-                        </div>
-                    </a>
-                    <a class="activite" href="#">
-                        <div>
-                            <img src="images/activites/kilyan-sockalingum.jpg" alt="Image des calanques">
-                                <h3 class="card-title">Parc national des calanques</h3>
-                        </div>
-                    </a>
-                    <a href="#" class="activite">
-                        <div>
-                            <img src="images/activites/florian-wehde.jpg" alt="Image de Notre dame de la garde">
-                                <h3 class="card-title">Notre-Dame-de-La-Garde</h3>
-                        </div>
-                    </a>
+
+                  
+                         <a href="#" class="activite">
+                                <article>
+                                    <img src="images/activites/reno-laithienne.jpg" alt="Image du vieux port">
+                                    <h3 class="card-title">Vieux-port</h3>
+                                </article>
+                         </a>
+                    
+                
+    
+                             <a href="#" class="activite">
+                                <article>
+                                    <img src="images/activites/paul-hermann.jpg" alt="Vestige archéologique">
+                                        <h3 class="card-title">Fort de Pomegues</h3>
+                            
+                                </article>
+                            </a>
+                  
+                            <a class="activite" href="#">
+                                <article>
+                                    <img src="images/activites/kilyan-sockalingum.jpg" alt="Image des calanques">
+                                        <h3 class="card-title">Parc national des calanques</h3>
+                                </article>
+                            </a>
+                  
+                            <a href="#" class="activite">
+                                <article>
+                                    <img src="images/activites/florian-wehde.jpg" alt="Image de Notre dame de la garde">
+                                        <h3 class="card-title">Notre-Dame-de-La-Garde</h3>
+                                </article>
+                            </a>
+                  
                 </div>
                 
-            </div>
+            </section>
         
         </main>
 
